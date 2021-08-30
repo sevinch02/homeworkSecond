@@ -1,8 +1,8 @@
-let div1 = document.getElementsByTagName('div')
+let div = document.getElementsByTagName('div')
 
-for(let i = 0; i < div1.length;i++){
+for(let i = 0; i < div.length;i++){
     setTimeout(() =>{
-        div1[i].style.opacity = '1';
+        div[i].style.opacity = '1';
        }, (i+1) *2000)
     
 }
